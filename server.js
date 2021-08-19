@@ -5,3 +5,4 @@ app = express();
 app.use(serveStatic(path.join(__dirname, 'dist')));
 const port = process.env.PORT || 4000;
 app.listen(port);
+console.log("server start"+ port)
