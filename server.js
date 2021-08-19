@@ -4,4 +4,4 @@ const path = require('path');
 app = express();
 app.use(serveStatic(path.join(__dirname, 'dist')));
 const port = process.env.PORT || 4000;
-app.listen("server running"+port);
+app.listen(port);
